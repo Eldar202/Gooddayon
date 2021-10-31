@@ -1,7 +1,7 @@
+x = input('Введите последовательность чисел через пробел: ')
+nums = x.split()
+nums = [int(item) for item in nums]
 def ind_missing_nums(nums):
-    x = input('Введите последовательность чисел через пробел: ')
-    nums = x.split()
-    nums = [int(item) for item in nums]
     n = max(nums)
     nums1 = list(range(1,n+1))
     m=[]
